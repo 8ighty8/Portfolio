@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorino Enoteca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Motorino Enoteca</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <img src="images/hero.jpg" alt="Hero Image">
+    </section>
+    <section id="lunch">
+        <h2>Lunch Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/lunch1.jpg" alt="Lunch Item 1">
+                <h3>Avocado Toast</h3>
+                <p>Toasted brioche, heirloom tomato/ balsamic reduction/boccocini pearls.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lunch2.jpg" alt="Lunch Item 2">
+                <h3>Whipped Mascarpone Pancakes</h3>
+                <p>Chia seeds, pistachios, mixed berry compote.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lunch3.jpg" alt="Lunch Item 3">
+                <h3>French Toast</h3>
+                <p>Banana dulce de leche, maple syrup, granola crumble, vanilla whipped cream.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lunch4.jpg" alt="Lunch Item 4">
+                <h3>Eggs Benedict</h3>
+                <p>Poached eggs, hollandaise sauce, Canadian bacon, English muffin.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lunch5.jpg" alt="Lunch Item 5">
+                <h3>Caesar Salad</h3>
+                <p>Romaine lettuce, Caesar dressing, croutons, Parmesan cheese.</p>
+            </div>
+        </div>
+    </section>
+    <section id="dinner">
+        <h2>Dinner Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/dinner1.jpg" alt="Dinner Item 1">
+                <h3>Grilled Salmon</h3>
+                <p>Salmon fillet, lemon butter sauce, asparagus.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dinner2.jpg" alt="Dinner Item 2">
+                <h3>Steak Frites</h3>
+                <p>Grilled steak, French fries, garlic butter.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dinner3.jpg" alt="Dinner Item 3">
+                <h3>Chicken Parmesan</h3>
+                <p>Breaded chicken breast, marinara sauce, mozzarella cheese.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dinner4.jpg" alt="Dinner Item 4">
+                <h3>Vegetarian Pasta</h3>
+                <p>Penne pasta, marinara sauce, roasted vegetables.</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dinner5.jpg" alt="Dinner Item 5">
+                <h3>Risotto</h3>
+                <p>Creamy risotto, wild mushrooms, truffle oil.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Address: 1234 Street Name, City, State, ZIP</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@restaurant.com</p>
+        <a href="#hero">Back to top</a>
+    </footer>
+    <script>
+        // Ensure smooth scroll for back to top link
+        document.querySelector('footer a').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

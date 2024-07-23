@@ -1,0 +1,14 @@
+# Node Modules
+node_modules/
+
+# Ignore doc file
+*.docx
+
+# Ignore PDF
+*.pdf
+
+#Ignore Zip
+*.zip
+
+#IGNORE PV NODE modules
+Kevin_Luong/node_modules/

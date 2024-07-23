@@ -1,0 +1,38 @@
+/*external css*/
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+} 
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+h3{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+}
+.heading{
+    color: greenyellow;
+
+}
+/*.test{     color: rgb(0, 0, 0);
+    font-size: 30px;}*/
+    h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+} 
+h4{ 
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.specials li{margin: 1rem 0;}
+.ending {font-size: 20;}
+
+.box{
+    margin-top: -15; margin-bottom: -15;
+}
+
+.box2{
+    margin-left: 50; 
+}

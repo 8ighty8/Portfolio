@@ -1,0 +1,8 @@
+<html>
+	<head></head>
+
+	<body>
+		<h1>INM 120</h1>
+		<p>This is my first class!</p>
+	</body>
+</html>
